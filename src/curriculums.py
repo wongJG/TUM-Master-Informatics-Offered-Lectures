@@ -24,5 +24,12 @@ curriculums = {
         tree_file="../data/curriculum_tree_math.obj",
         heading="Elective Modules in Master Mathematics",
         tree_url="https://campus.tum.de/tumonline/wbstpcs.showSpoTree?pStpStpNr=4852&pSjNr=1617",
-    )
+    ),
+    "master-mathematics-ds": SimpleNamespace(
+        use_theory_nodes=False,
+        tree_file="../data/curriculum_tree_math-ds.obj",
+        heading="Elective Modules in Master Mathematics in Data Science",
+        tree_url="https://campus.tum.de/tumonline/wbstpcs.showSpoTree?pStpStpNr=5246&pSjNr=1617",
+    ),
+
 }
